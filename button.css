@@ -1,0 +1,32 @@
+#root {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+	width: 20%;
+}
+
+@media screen and (max-width: 1440px) {
+	.container {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.container {
+		width: calc(100% / 3);
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		width: 100%;
+	}
+}

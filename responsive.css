@@ -1,0 +1,28 @@
+#root {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+}
+
+@media screen and (max-width: 1440px) {
+	#root {
+		grid-template-columns: auto auto auto auto;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	#root {
+		grid-template-columns: auto auto auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#root {
+		grid-template-columns: auto auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#root {
+		grid-template-columns: auto;
+	}
+}
